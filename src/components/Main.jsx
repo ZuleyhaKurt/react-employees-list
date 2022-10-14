@@ -33,6 +33,7 @@ const Main = () => {
         <div className="head">
             <p className="header">Employee List</p>
               <Header count={count} />
+              <hr/>
         </div>
         <div className="card-container">
               <Card count={count} />

@@ -19,7 +19,8 @@ body{
   display: flex;
   gap: 2rem;
   margin: 2rem;
-  border: 1px solid grey;
+  border: 0 1px 1px 0 solid grey;
+  box-shadow: 5px 5px 5px gray;
 }
 .card:hover{
   border: 2px solid gray;
@@ -61,6 +62,10 @@ button:active{
   color: gray;
 }
 
+hr{
+  margin-top: 0.5rem;
+}
+
 @media screen and (max-width:500px) {
   .container{
     width: 90%;
@@ -69,6 +74,11 @@ button:active{
   .card{
     margin: 1rem 0;
     font-size: 0.8rem;
+  }
+  .card:hover{
+    border: 0 1px 1px 0 solid grey;
+  box-shadow: 5px 5px 5px gray;
+  transform: scale(101%);
   }
 }
 
